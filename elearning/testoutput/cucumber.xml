@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="136.031">
+<testcase classname="Login Features" name="login with different user" time="37.291">
+<system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
+When I Enter the username as "Dsingh".......................................passed
+And I Enter the password as "Dsingh@1234"...................................passed
+And I click on the login button.............................................passed
+Then I should see the username as "Dkumar Singh"............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Features" name="login with different user 2" time="40.206">
+<system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
+When I Enter the username as "Teacher3".....................................passed
+And I Enter the password as "Teacher@123"...................................passed
+And I click on the login button.............................................passed
+Then I should see the username as "FTeacher3 LTeacher3".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Features" name="login with different user 3" time="37.154">
+<system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
+When I Enter the username as "FLStudent1"...................................passed
+And I Enter the password as "Student@123"...................................passed
+And I click on the login button.............................................passed
+Then I should see the username as "FStudent1 LStudent1".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Features" name="Login with Negative data" time="21.072">
+<system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
+When I Enter the username as "Dks"..........................................passed
+And I Enter the password as "Dks"...........................................passed
+And I click on the login button.............................................passed
+Then I should see a Error meassage as "Login failed - incorrect login or password.".passed
+]]></system-out>
+</testcase>
+</testsuite>
